@@ -1,9 +1,18 @@
 import React from 'react';
+import NavBar from './components/NavBar';
+import Banner from './components/Banner';
+import Banner2 from './components/Banner2';
+import CardSection from './components/CardSection';
+import Footer from './components/Footer';
 
 const page = () => {
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-4">Welcome to the Home Page</h2>
+      <NavBar />
+      <Banner />
+      <Banner2 />
+      <CardSection />
+      <Footer />
     </div>
   );
 };
