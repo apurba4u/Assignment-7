@@ -49,10 +49,10 @@ const Footer = () => {
   </nav>
   
   <div className="flex items-center justify-between w-full">
-    <div className="text-[#64748B]">
+    <div className="text-[#FAFAFA]">
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
     </div>
-    <div className="flex gap-3.5 text-[#64748B]">
+    <div className="flex gap-3.5 text-[#FAFAFA]">
       <p>Privacy Policy</p>
       <p>Terms of Service</p>
       <p>Cookies</p>
