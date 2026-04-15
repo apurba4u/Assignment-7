@@ -16,7 +16,7 @@ const NavBar = () => {
     <>
     <div className="flex shadow-sm justify-between w-full py-2.5 bg-white">
   <div className="">
-    <a className="btn btn-ghost text-xl"><span className="font-extrabold">Keen<span className="font-medium">Keeper</span></span></a>
+    <div className="text-xl"><span className="font-extrabold">Keen<span className="font-medium">Keeper</span></span></div>
   </div>
   <div className="">
     <div className="flex items-center gap-1.5">

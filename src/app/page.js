@@ -12,6 +12,7 @@ const page = () => {
       <Banner2 />
       <CardSection />
     </ContactProvider>
+    
     </>
   );
 };
