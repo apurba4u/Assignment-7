@@ -1,7 +1,7 @@
 "use client";
 import Section2 from '@/app/components/Section2';
 import { useContact } from '@/app/context/ContactContext';
-import { useParams } from 'next/navigation';
+import { notFound, useParams } from 'next/navigation';
 import React from 'react';
 
 const CardIdPage = () => {
@@ -12,7 +12,7 @@ const CardIdPage = () => {
     (c) => c.id === Number(id)
   );
 
-  if (!contact) return <p>Not Found</p>;
+  if (!contact) return notFound();
   return (
     <div>
       <Section2 props={contact}/>
