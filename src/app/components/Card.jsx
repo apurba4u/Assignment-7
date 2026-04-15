@@ -41,18 +41,18 @@ const Card = ({ props }) => {
       />
       <h4 className="text-xl font-bold">{name}</h4>
       <p className="text-[#64748B]">{tracking.days_since_contact}d ago</p>
-      <div className="flex items-center gap-0.5 justify-center w-41 mx-auto">
-        {tags.map((tag, index) => (
-          <div
-            key={index}
-            className="rounded-4xl w-20 mx-auto p-1.5 bg-[#CBFADB] text-xs flex justify-center items-center"
-          >
-            <span>{tag}</span>
-          </div>
-        ))}
-      </div>
+      <div className="flex items-center gap-1 flex-wrap justify-center mx-auto">
+  {tags.map((tag, index) => (
+    <div
+      key={index}
+      className="rounded-4xl px-3 py-1.5 bg-[#CBFADB] text-xs flex justify-center items-center"
+    >
+      <span className="text-center text-xs">{tag}</span>
+    </div>
+  ))}
+</div>
       <div
-        className={`mx-auto rounded-2xl text-white ${getStatusClass(status)}`}
+        className={`mx-auto rounded-2xl text-white ${getStatusClass(status)} text-[10px] md:text-xs`}
       >
         {status}
       </div>
