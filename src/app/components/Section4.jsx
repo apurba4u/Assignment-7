@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, Tooltip } from "recharts";
 
 const getInteractionCounts = () => {
   const logs = JSON.parse(localStorage.getItem("contact_logs") || "[]");
@@ -58,6 +58,7 @@ const Section4 = () => {
                   <Cell key={index} fill={entry.color} />
                 ))}
               </Pie>
+              <Tooltip formatter={(value) => `${value} interactions`} />
             </PieChart>
           </div>
           <div className="flex items-center justify-center gap-6 text-[#64748B] pb-8">

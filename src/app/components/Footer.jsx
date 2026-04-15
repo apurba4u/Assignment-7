@@ -2,16 +2,16 @@
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-white p-15">
+    <footer className=" footer-center bg-[#244D3F] text-white p-15">
   <aside>
-    <h4 className="text-7xl"><span className="font-extrabold">Keen<span className="font-medium">Keeper</span></span></h4>
+    <div className=""><div className="font-extrabold text-7xl flex justify-center items-center flex-col md:flex-row">Keen<div className="font-medium">Keeper</div></div></div>
     <p className="font-medium text-white text-[12px] mt-8">
       Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
     </p>
   </aside>
   <nav>
     <p className="text-[14px] font-bold">Social Links</p>
-    <div className="grid grid-flow-col gap-4">
+    <div className="flex items-center gap-4 mt-4 justify-center">
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -47,6 +47,8 @@ const Footer = () => {
       </a>
     </div>
   </nav>
+
+  <div className="divider"></div>
   
   <div className="flex items-center justify-between w-full">
     <div className="text-[#FAFAFA]">

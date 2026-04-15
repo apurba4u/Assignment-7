@@ -19,7 +19,7 @@ const NavBar = () => {
     <div className="text-xl"><span className="font-extrabold">Keen<span className="font-medium">Keeper</span></span></div>
   </div>
   <div className="">
-    <div className="flex items-center gap-1.5">
+    <div id='responsive-flex'>
       <Link
         href="/" className={`btn ${getClass("/")}`}
       >
