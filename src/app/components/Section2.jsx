@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { BellRing, Archive, Trash, Phone, MessageSquareMore, Video } from 'lucide-react';
 
 const Section2 = () => {
+  
   return (
     <div className='my-10 mx-auto flex-col md:flex-row flex md:items-center gap-3.5'>
       <div className='md:flex-1 text-center rounded-2xl space-y-3.5'>

@@ -1,279 +1,124 @@
 {
   "contacts": [
     {
-      "id": "1",
-      "name": "David Kim",
-      "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
-      "status": "ALMOST_DUE",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Project manager at previous company",
-        "preferredContact": "call"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 45,
-        "nextDue": "2026-03-05"
-      },
-      "actions": {
-        "snooze": "1_week",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["call", "text"]
+      "id": 1,
+      "name": "John Doe",
+      "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+      "email": "john@example.com",
+      "days_since_contact": 12,
+      "status": "almost due",
+      "tags": ["college", "friend"],
+      "bio": "Met in university. Love hiking together."
     },
-
     {
-      "id": "2",
-      "name": "Emma Wilson",
-      "avatar": "https://randomuser.me/api/portraits/women/12.jpg",
-      "status": "OVERDUE",
-      "tags": ["FAMILY"],
-      "relationship": {
-        "note": "Former colleague, great mentor",
-        "preferredContact": "email"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 30,
-        "nextDue": "2026-02-27"
-      },
-      "actions": {
-        "snooze": "2_weeks",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["call", "text", "video"]
+      "id": 2,
+      "name": "Sarah Chen",
+      "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "email": "sarah@example.com",
+      "days_since_contact": 20,
+      "status": "overdue",
+      "tags": ["work"],
+      "bio": "Worked together on startup projects."
     },
-
     {
-      "id": "3",
+      "id": 3,
+      "name": "Marcus Johnson",
+      "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+      "email": "marcus@example.com",
+      "days_since_contact": 5,
+      "status": "on-track",
+      "tags": ["gym", "fitness"],
+      "bio": "Gym partner and fitness enthusiast."
+    },
+    {
+      "id": 4,
+      "name": "Olivia Martinez",
+      "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+      "email": "olivia@example.com",
+      "days_since_contact": 13,
+      "status": "almost due",
+      "tags": ["travel", "friend"],
+      "bio": "Travel companion from Europe trip."
+    },
+    {
+      "id": 5,
+      "name": "Aisha Patel",
+      "picture": "https://randomuser.me/api/portraits/women/5.jpg",
+      "email": "aisha@example.com",
+      "days_since_contact": 30,
+      "status": "overdue",
+      "tags": ["client", "design"],
+      "bio": "Freelance design client."
+    },
+    {
+      "id": 6,
+      "name": "Tom Baker",
+      "picture": "https://randomuser.me/api/portraits/men/6.jpg",
+      "email": "tom@example.com",
+      "days_since_contact": 2,
+      "status": "on-track",
+      "tags": ["neighbor"],
+      "bio": "Lives nearby, often meets for coffee."
+    },
+    {
+      "id": 7,
+      "name": "Emily Clark",
+      "picture": "https://randomuser.me/api/portraits/women/7.jpg",
+      "email": "emily@example.com",
+      "days_since_contact": 18,
+      "status": "overdue",
+      "tags": ["family"],
+      "bio": "Cousin living abroad."
+    },
+    {
+      "id": 8,
+      "name": "Ryan O'Brien",
+      "picture": "https://randomuser.me/api/portraits/men/8.jpg",
+      "email": "ryan@example.com",
+      "days_since_contact": 10,
+      "status": "almost due",
+      "tags": ["photography", "hobby"],
+      "bio": "Photography club member."
+    },
+    {
+      "id": 9,
       "name": "Lisa Nakamura",
-      "avatar": "https://randomuser.me/api/portraits/women/13.jpg",
-      "status": "OVERDUE",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Client from Japan office",
-        "preferredContact": "video"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 25,
-        "nextDue": "2026-02-20"
-      },
-      "actions": {
-        "snooze": "3_days",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["video", "text"]
+      "picture": "https://randomuser.me/api/portraits/women/9.jpg",
+      "email": "lisa@example.com",
+      "days_since_contact": 6,
+      "status": "on-track",
+      "tags": ["work", "designer"],
+      "bio": "UI/UX designer in product team."
     },
-
     {
-      "id": "4",
-      "name": "James Wright",
-      "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
-      "status": "OVERDUE",
-      "tags": ["HOBBY", "TRAVEL"],
-      "relationship": {
-        "note": "Travel buddy from Europe trip",
-        "preferredContact": "text"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 20,
-        "nextDue": "2026-02-18"
-      },
-      "actions": {
-        "snooze": "1_week",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["text"]
-    },
-
-    {
-      "id": "5",
+      "id": 10,
       "name": "David Kim",
-      "avatar": "https://randomuser.me/api/portraits/women/21.jpg",
-      "status": "OVERDUE",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Startup co-founder",
-        "preferredContact": "call"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 30,
-        "nextDue": "2026-02-25"
-      },
-      "actions": {
-        "snooze": "1_week",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["call"]
+      "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+      "email": "david@example.com",
+      "days_since_contact": 25,
+      "status": "overdue",
+      "tags": ["startup"],
+      "bio": "Worked together on startup."
     },
-
     {
-      "id": "6",
-      "name": "Emma Wilson",
-      "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
-      "status": "ON_TRACK",
-      "tags": ["FAMILY"],
-      "relationship": {
-        "note": "Cousin living abroad",
-        "preferredContact": "video"
-      },
-      "tracking": {
-        "daysSinceContact": 10,
-        "goalDays": 30,
-        "nextDue": "2026-03-20"
-      },
-      "actions": {
-        "snooze": "none",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["video", "text"]
+      "id": 11,
+      "name": "Sophia Turner",
+      "picture": "https://randomuser.me/api/portraits/women/11.jpg",
+      "email": "sophia@example.com",
+      "days_since_contact": 7,
+      "status": "on-track",
+      "tags": ["book", "club"],
+      "bio": "Book club friend, meets weekly."
     },
-
     {
-      "id": "7",
-      "name": "Lisa Nakamura",
-      "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
-      "status": "ON_TRACK",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Team designer",
-        "preferredContact": "email"
-      },
-      "tracking": {
-        "daysSinceContact": 5,
-        "goalDays": 20,
-        "nextDue": "2026-03-10"
-      },
-      "actions": {
-        "snooze": "none",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["text"]
-    },
-
-    {
-      "id": "8",
-      "name": "James Wright",
-      "avatar": "https://randomuser.me/api/portraits/men/24.jpg",
-      "status": "ALMOST_DUE",
-      "tags": ["HOBBY", "TRAVEL"],
-      "relationship": {
-        "note": "Gym partner",
-        "preferredContact": "call"
-      },
-      "tracking": {
-        "daysSinceContact": 18,
-        "goalDays": 20,
-        "nextDue": "2026-03-01"
-      },
-      "actions": {
-        "snooze": "2_days",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["call", "text"]
-    },
-
-    {
-      "id": "9",
-      "name": "David Kim",
-      "avatar": "https://randomuser.me/api/portraits/women/31.jpg",
-      "status": "ALMOST_DUE",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Freelance client",
-        "preferredContact": "email"
-      },
-      "tracking": {
-        "daysSinceContact": 40,
-        "goalDays": 45,
-        "nextDue": "2026-03-06"
-      },
-      "actions": {
-        "snooze": "3_days",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["email"]
-    },
-
-    {
-      "id": "10",
-      "name": "Emma Wilson",
-      "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
-      "status": "OVERDUE",
-      "tags": ["FAMILY"],
-      "relationship": {
-        "note": "Aunt",
-        "preferredContact": "call"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 30,
-        "nextDue": "2026-02-26"
-      },
-      "actions": {
-        "snooze": "1_week",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["call"]
-    },
-
-    {
-      "id": "11",
-      "name": "Lisa Nakamura",
-      "avatar": "https://randomuser.me/api/portraits/women/33.jpg",
-      "status": "OVERDUE",
-      "tags": ["WORK"],
-      "relationship": {
-        "note": "Marketing lead",
-        "preferredContact": "video"
-      },
-      "tracking": {
-        "daysSinceContact": 62,
-        "goalDays": 28,
-        "nextDue": "2026-02-22"
-      },
-      "actions": {
-        "snooze": "2_days",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["video"]
-    },
-
-    {
-      "id": "12",
-      "name": "James Wright",
-      "avatar": "https://randomuser.me/api/portraits/men/34.jpg",
-      "status": "ON_TRACK",
-      "tags": ["HOBBY", "TRAVEL"],
-      "relationship": {
-        "note": "Photography club member",
-        "preferredContact": "text"
-      },
-      "tracking": {
-        "daysSinceContact": 7,
-        "goalDays": 25,
-        "nextDue": "2026-03-18"
-      },
-      "actions": {
-        "snooze": "none",
-        "archive": false,
-        "delete": false
-      },
-      "quickCheckIn": ["text"]
+      "id": 12,
+      "name": "Daniel Scott",
+      "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+      "email": "daniel@example.com",
+      "days_since_contact": 14,
+      "status": "almost due",
+      "tags": ["travel"],
+      "bio": "Met during a backpacking trip."
     }
   ]
 }
