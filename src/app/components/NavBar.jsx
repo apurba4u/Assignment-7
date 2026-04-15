@@ -15,10 +15,10 @@ const NavBar = () => {
   return (
     <>
     <div className="flex shadow-sm justify-between w-full py-2.5 bg-white">
-  <div className="">
+  <div className="pl-3.5">
     <div className="text-xl"><span className="font-extrabold">Keen<span className="font-medium">Keeper</span></span></div>
   </div>
-  <div className="">
+  <div className="pr-3.5">
     <div id='responsive-flex'>
       <Link
         href="/" className={`btn ${getClass("/")}`}
